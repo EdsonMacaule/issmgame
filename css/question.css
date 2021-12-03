@@ -1,0 +1,233 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /*background-image: url("../img/imagem2.jpg");*/
+    /*background-position: 50% 70%;*/
+    background-color: #FFFFFF;
+    color: #FF8A00;
+    font-family: Cambria;
+}
+div.content-row{
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    font-size: 24px;
+    color: #606060;
+    font-family: Cambria;
+    padding: 10px;
+}
+.purple-border textarea {
+    border: 1px solid #F2F2F2;
+}
+.purple-border .form-control:focus {
+    border: 1px solid #F2F2F2;
+    box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+}
+
+div.flex-row{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: compact;
+}
+label{
+    padding: 10px;
+    font-family: Cambria;
+    font-size: 15px;
+    color: #606060;
+}
+
+select{
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #606060;
+    border: none;
+}
+
+select#challenge{
+    width: 180px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #606060;
+    border: none;
+}
+
+div.flex-row .form-group{
+    padding: 20px;
+    display: flex;
+}
+input{
+    height: 40px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #F2F2F2;
+    font-size: 12pt;
+    padding: 8px 10px;
+    background-color: #170F50;
+    color: #F2F2F2;
+    outline: none;
+    font-family: Cambria;
+}
+
+button{
+    height: 60px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #F2F2F2;
+    font-size: 15px;
+    padding: 8px 10px;
+    background-color:  #170F50;
+    color: #F2F2F2;
+    outline: none;
+    cursor: pointer;
+    font-family: Cambria;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+button#Adicionar_Pergunta{
+    align-items: center;
+    height: 60px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 8px 10px;
+    background-color:  #170F50;
+    color: #F2F2F2;
+    outline: none;
+    cursor: pointer;
+    font-family: Cambria;
+    text-align: center;
+    margin-left: 30%;
+}
+button#Adicionar_Pergunta:hover{
+    background-color: #FF8A00;
+    border: none;
+    color: #170F50;
+}
+button:hover{
+    background-color: #FF8A00;
+    border: none;
+    color: #170F50;
+}
+textarea{
+    width: 420px;
+    margin-left: 2%;
+    border-radius: 10px;
+    outline: none;
+    text-align: justify;
+    padding: 5px;
+    color: #F2F2F2;
+    background-color: #170F50;
+}
+
+div.select-row{
+    /*padding: 1px 25%;*/
+}
+
+div.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*margin-left: 8%;*/
+}
+
+input#find{
+    height: 40px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 12pt;
+    padding: 8px 10px;
+    background-color: rgba(255, 255, 255, 0.01);
+    color: #F2F2F2;
+    outline: none;
+    font-family: Cambria;
+}
+button.pesquisar:hover{
+    background-color: #FF8A00;
+    border: none;
+    color: #170F50;
+}
+
+button.pesquisar{
+    margin-top: -8px;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    padding: 4px;
+}
+nav ul li a{
+    color: #F2F2F2;
+    outline: none;
+    font-size: 14pt;
+    font-family: Cambria;
+
+}
+nav ul li a:hover{
+    color: #170F50;
+
+}
+nav ul li{
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    padding-left: 90%;
+
+}
+nav{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: block;
+    height: 60px;
+    padding-top: 10px;
+    background-color: #E4A72C;
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.192);
+}
+
+nav ul li#voltar{
+    margin-left: -80%;
+}
+
+nav ul li#sidebar_sair{
+    margin-top: 0%;
+
+}
+
+.purple-border{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+::-webkit-input-placeholder {
+    color: #FF8A00;
+}
+
+::-moz-placeholder {
+    color: #FF8A00;
+}
+
+::-moz-placeholder {
+    color: #FF8A00;
+}
+
+::-ms-input-placeholder {
+    color: #FF8A00;
+}
